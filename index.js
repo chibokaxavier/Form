@@ -35,7 +35,7 @@ view3.addEventListener("submit", function(event) {
 })
 view4.addEventListener("submit", function(event) {
     event.preventDefault()
-    
+    selectView(1)
 })
 
 
