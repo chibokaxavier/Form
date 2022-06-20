@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="first-div">
+        <h1 id="pdsb">PERSONAL DETAILS</h1>
+        <h1 id="asb">ADDRESS</h1>
+        <h1 id="rsb">REVIEW</h1>
+        <h1 id="ssb">SUBMIT</h1>
+    </div>
+    <div id="second-div" > 
+        <form action="" class="block" id="view1"> 
+            <img src="./img for file.png" alt="" id="avatar1"> <p>File Name </p><br>
+            <input type="file" name="" id="image-selector" class="image-selector" accept="image/*" hidden multiple>
+            <input placeholder="Name" type="text" name="" id="" required>
+            <input placeholder="E-mail" type="email" name="" id="" required><br>
+            <input placeholder=" Password" type="password" name="" id="" required>
+            <button type="submit" id="proceed-btn">PROCEED</button>
+        </form>
+        <form action="" class="hidden" id="view2">
+            <input placeholder="State" type="text" name="" id="">
+            <input  placeholder="Street 1" type="text" name="" id="">
+            <br>
+            <input  placeholder="Street 2" type="text" name="" id="">
+            <button type="submit" id="proceed-btn">PROCEED</button>
+        </form>
+        <form action="" class="hidden" id="view3">
+            <p class="reviewp">Name:</p>
+            <p class="reviewp">E-mail:</p>
+            <p class="reviewp">Address:</p>
+            <button type="submit" id="proceed-btn">PROCEED</button>
+        </form> >
+        <form action="" class="hidden" id="view4">
+            <p>Are you sure you want to submit?</p>
+            <button type="submit" id="proceed-btn">SUBMIT</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
