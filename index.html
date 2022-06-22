@@ -8,31 +8,31 @@
 </head>
 <body>
     <div id="first-div">
-        <h1 id="pdsb">PERSONAL DETAILS</h1>
-        <h1 id="asb">ADDRESS</h1>
-        <h1 id="rsb">REVIEW</h1>
-        <h1 id="ssb">SUBMIT</h1>
+        <h1 id="pdsb" class="first-div-data">PERSONAL DETAILS</h1>
+        <h1 id="asb" class="first-div-data">ADDRESS</h1>
+        <h1 id="rsb" class="first-div-data">REVIEW</h1>
+        <h1 id="ssb" class="first-div-data">SUBMIT</h1>
     </div>
     <div id="second-div" > 
         <form action="" class="block" id="view1"> 
             <img src="./img for file.png" alt="" id="avatar1"> <p>File Name </p><br>
             <input type="file" name="" id="image-selector" class="image-selector" accept="image/*" hidden multiple>
-            <input placeholder="Name" type="text" name="" id="" required>
-            <input placeholder="E-mail" type="email" name="" id="" required><br>
+            <input placeholder="Name" type="text" name="" id="name" required>
+            <input placeholder="E-mail" type="email" name="" id="email" required><br>
             <input placeholder=" Password" type="password" name="" id="" required>
             <button type="submit" id="proceed-btn">PROCEED</button>
         </form>
         <form action="" class="hidden" id="view2">
-            <input placeholder="State" type="text" name="" id="" required>
-            <input  placeholder="Street 1" type="text" name="" id="" required>
+            <input placeholder="State" type="text" name="" id="state" required>
+            <input  placeholder="Street 1" type="text" name="" id="street1" required>
             <br>
-            <input  placeholder="Street 2" type="text" name="" id="" required>
+            <input  placeholder="Street 2" type="text" name="" id="street2" required>
             <button type="submit" id="proceed-btn">PROCEED</button>
         </form>
         <form action="" class="hidden" id="view3">
-            <p class="reviewp">Name:</p>
-            <p class="reviewp">E-mail:</p>
-            <p class="reviewp">Address:</p>
+            <p class="reviewp" id="name-string">Name:</p>
+            <p class="reviewp" id="email-string">E-mail:</p>
+            <p class="reviewp" id="address-string">Address:</p>
             <button type="submit" id="proceed-btn">PROCEED</button>
         </form> 
         <form action="" class="hidden" id="view4">

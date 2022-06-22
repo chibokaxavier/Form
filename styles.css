@@ -39,6 +39,10 @@ body{
 h1{
     padding-top: 40px;
     padding-bottom: 40px;
+    cursor: pointer;
+}
+.view-styling{
+    font-weight: bolder;
 }
 img{
     border-radius:500px;
@@ -74,17 +78,23 @@ input{
 .block{
      display: block; 
     animation-name:fade-in;
-    animation-duration: 5s;
+    animation-duration: 2s;
 }
 .hidden{
      display: none; 
     animation-name:fade-out;
-    animation-duration: 5s;
+    animation-duration: 2s;
+}
+.first-div-data{
+    transition: all 2s;
 }
 
 .bold{
-text-decoration: solid;
+/* text-decoration: solid; */
+color: Blue;
+font-weight:bolder;
 }
 .normal-text{
-    text-decoration: none;
+    /* text-decoration: none; */
+    font-weight: lighter;
 }
